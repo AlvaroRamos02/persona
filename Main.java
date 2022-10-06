@@ -14,8 +14,10 @@ public class Main {
         p.setEdad(Integer.parseInt(sc.nextLine()));
         System.out.println("Escribe tu altura: ");
         p.setAltura(Float.parseFloat(sc.nextLine()));
+        System.out.println("Escribe tu equipo de futbol favorito: ");
+        p.setEquipo(sc.nextLine());
 
 
-        System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) + " años" + "mides " + String.valueOf((p.getAltura())));
+        System.out.println("Buenos dias : " + p.getNombre() + " " + p.getApellidos() + " con dni: " + String.valueOf(p.getDniSinLetra()) + " y edad:" + String.valueOf(p.getEdad()) +" Tu equipo favorito es " + String.valueOf(p.getEquipo())+" años" + "mides " + String.valueOf((p.getAltura())));
     }
 }

@@ -4,9 +4,13 @@ public class Persona {
     private int dniSinLetra;
     private int edad;
     private float altura;
+    private String equipo;
 
     public String getNombre(){
         return nombre;
+    }
+    public String getEquipo(){
+
     }
     public  float getAltura(){return altura;}
 
@@ -33,6 +37,9 @@ public class Persona {
 
     public void setDniSinLetra(int dni){
         this.dniSinLetra = dni;
+    }
+    public void setEquipo(String equ){
+        this.equipo = equ;
     }
 
     public void setEdad(int ed){
